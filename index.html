@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>seinblanket</title>
+	<title>blanketsein</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
@@ -49,7 +49,7 @@
         <input class="button2" type="button" id="futilityandperfection" value="futility and perfection.mp4" playsinline onclick="video.pause(); video.currentTime = 0; loadVideo('textures/videos/futility and perfection.mp4', fbxLabel, 480, 360);">
         <input class="button2" type="button" id="halfofhowigothere" value="half of how I got here.mp4" playsinline onclick="video.pause(); video.currentTime = 0; loadVideo('textures/videos/half of how I got here.mp4', fbxLabel, 320, 240);">
         <input class="button2" type="button" id="heavenmightbeboring" value="heaven might be boring.mp4" playsinline onclick="video.pause(); video.currentTime = 0; loadVideo('textures/videos/heaven might be boring.mp4', fbxLabel, 600, 360);">
-         <input class="button2" type="button" id="paradiselost" value="paradise lost.mp4" playsinline onclick="video.pause(); video.currentTime = 0; loadVideo('textures/videos/paradise lost.mov', fbxLabel, 1080, 1920);">
+        <input class="button2" type="button" id="paradiselost" value="paradise lost.mp4" playsinline onclick="video.pause(); video.currentTime = 0; loadVideo('textures/videos/paradise lost.mov', fbxLabel, 1080, 1920);">
         <input class="button2" type="button" id="reality" value="reality_.jpg" onclick="video.pause(); video.currentTime = 0; loadTexture('textures/reality_.jpg', fbxLabel);">
         <input class="button2" type="button" id="sightispower" value="sight is power.jpg" onclick="video.pause(); video.currentTime = 0; loadTexture('textures/sight is power.jpg', fbxLabel);">
         <input class="button2" type="button" id="technology" value="technology moves at the same speed as our emotions.jpg" onclick="video.pause(); video.currentTime = 0; loadTexture('textures/technology moves at the same speed as our emotions.jpg', fbxLabel);">
@@ -111,7 +111,7 @@
             controls.update();
 
             scene = new THREE.Scene();
-            scene.background = new THREE.Color();
+            scene.background = new THREE.Color(000000);
             // scene.fog = new THREE.Fog( 0xa0a0a0, 200, 1000 );
 
             // create an AudioListener and add it to the camera
