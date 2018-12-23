@@ -1,16 +1,19 @@
 ﻿body {
-			background-color: transparent;
-			margin: 0px;
+    background-color: transparent;
+    margin: 0px;
 }
+
 h1 {
-            color: #ffffff;
-            font-size: 40px;
+    color: #ffffff;
+    font-size: 40px;
 }
+
 h2 {
     text-align: right;
-            color: #ffffff;
-            font-size: 40px;
+    color: #ffffff;
+    font-size: 40px;
 }
+
 .button {
     display: block;
     color: #09ff00;
@@ -28,6 +31,7 @@ h2 {
     float: left;
     clear: both;
 }
+
 .button2 {
     display: block;
     color: #09ff00;
@@ -45,22 +49,24 @@ h2 {
     float: right;
     clear: both;
 }
+
 .button:hover {
     display: block;
-            color:#00d2ff;
-            font-family:'Helvetica';
-            background-color: transparent;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            outline: none;
-            border:none;
-            margin:0;
-            padding:2px;
-            cursor: pointer;
-            top: 10px;
-            bottom:500px;
-            text-align: right;
+    color: #00d2ff;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    text-align: right;
 }
+
 .button2:hover {
     display: block;
     color: #00d2ff;
@@ -77,22 +83,24 @@ h2 {
     bottom: 500px;
     text-align: right;
 }
+
 .button:active {
     display: block;
-            color:#ffd800;
-            font-family:'Helvetica';
-            background-color: transparent;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            outline: none;
-            border:none;
-            margin:0;
-            padding:2px;
-            cursor: pointer;
-            top: 10px;
-            bottom:500px;
-            text-align: right;
+    color: #ffd800;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    text-align: right;
 }
+
 .button2:active {
     display: block;
     color: #ffd800;
@@ -109,22 +117,24 @@ h2 {
     bottom: 500px;
     text-align: right;
 }
+
 .button:target {
-       display: block;
-            color:#ff0000;
-            font-family:'Helvetica';
-            background-color: transparent;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            outline: none;
-            border:none;
-            margin:0;
-            padding:2px;
-            cursor: pointer;
-            top: 10px;
-            bottom:500px;
-            text-align: right;
+    display: block;
+    color: #ff0000;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    text-align: right;
 }
+
 .button2:target {
     display: block;
     color: #ff0000;
@@ -151,6 +161,7 @@ h2 {
     scrollbar-track-color: #09ff00;
     scrollbar-base-color: #09ff00;*/
 }
+
 .s {
     position: absolute;
     right: 0px;
@@ -162,13 +173,15 @@ h2 {
     scrollbar-track-color: #09ff00;
     scrollbar-base-color: #09ff00;*/
 }
-.target{
-  font-size:18px;
-  opacity: 0;
-  transform: translateX(40px);
-  transition: all 1.5s ease;
+
+.target {
+    font-size: 18px;
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 1.5s ease;
 }
-.target:target{
-  opacity: 1;
-  transform: translateX(0);
-}
+
+    .target:target {
+        opacity: 1;
+        transform: translateX(0);
+    }
